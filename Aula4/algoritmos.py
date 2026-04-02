@@ -5,9 +5,9 @@ index=[]
 def insert(nomesi:list):
     nomesi.append(input("insert um nome"))
  
-def listar(nomesl:list,tipovalor:str):
-    for nome in nomesl:
-        print(tipovalor, " " , nome)
+def listar(listarl:list,tipovalor:str):
+    for listal in listarl:
+        print(tipovalor, " " , listal)
 
 def delete(nomesd:list):
     nomesd.pop( int(input(" insert posiçao ")))
@@ -30,7 +30,7 @@ while True:
         case "1":
             insert(nomes)
         case "2":
-            listar(nomes,"nome")          
+            listar(nomes,"nome")
         case "3":
             procurar(nomes, index)
             listar(index,"posiçao")
