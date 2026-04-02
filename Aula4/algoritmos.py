@@ -1,6 +1,7 @@
 nomes=["da","fa","oi","da"]
-index=[]
 #index   0    1    2   3
+
+index=[]
  
 def insert(nomesi:list):
     nomesi.append(input("insert um nome"))
