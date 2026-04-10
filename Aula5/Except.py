@@ -20,7 +20,6 @@ print("String:", char)
 print("ASCII de '1':", ord("1"))
 print("Letra correspondente ao código 65:", chr(65))
 
-
 # ------------------------------------------
 # Exemplo 2: ZeroDivisionError
 # ------------------------------------------
@@ -31,7 +30,6 @@ try:
     total = 10 / n1
 except ZeroDivisionError:
     print("Erro: não é possível dividir por zero!")
-
 
 # ------------------------------------------
 # Exemplo 3: ValueError (input inválido)
@@ -46,7 +44,6 @@ except ValueError as erro:
 else:
     print("Conversão realizada com sucesso:", resultado)
 
-
 # ------------------------------------------
 # Exemplo 4: Raise (lançar exceção manual)
 # ------------------------------------------
@@ -60,7 +57,6 @@ try:
 except ValueError as erro:
     print("Erro:", erro)
 
-
 # ------------------------------------------
 # Exemplo 5: finally (executa sempre)
 # ------------------------------------------
@@ -71,7 +67,6 @@ except ValueError:
     print("Erro na conversão")
 finally:
     print("Fim do programa (executa sempre)")
-
 
 # ------------------------------------------
 # Exemplo 6: Múltiplas exceções (ValueError + IndexError)
